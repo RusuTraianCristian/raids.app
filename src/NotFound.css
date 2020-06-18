@@ -1,0 +1,12 @@
+#notfound {
+    background: white;
+    color: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100vh;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial;
+    user-select: none;
+}
