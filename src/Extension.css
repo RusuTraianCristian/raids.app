@@ -8,7 +8,6 @@
     --ninjadark: #1b1d2d;
     --ninjablack: #21202d;
     --twitch: #19171c;
-    --darkpurple: #7866be;
     --newpurple: #7f4edb;
     --redy: #bb2443;
 }
@@ -23,16 +22,40 @@
     background: var(--twitch);
     color: var(--darkpurple);
     line-height: 46px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .left {
     float: left;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+    text-decoration: overline;
+    text-decoration-color: var(--darkpurple);
+    color: #dedede;
+    height: 46px;
+    margin-top: 4px;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+.left span {
+    color: var(--darkpurple);
 }
 
 .right {
     float: right;
+}
+
+.right a {
+    text-decoration: none;
+    color: var(--darkpurple);
+    margin: 0 10px;
 }
 
 .logout {
@@ -40,14 +63,14 @@
     outline: none;
     user-select: none;
     cursor: pointer;
-    height: 34px;
-    line-height: 34px;
-    margin: 6px 0;
-    width: 90px;
-    background: var(--purple);
+    height: 32px;
+    line-height: 32px;
+    margin: 7px 0;
+    width: 78px;
+    background: var(--darkpurple);
     border-radius: 3px;
     color: var(--twitch);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -57,7 +80,7 @@
     -moz-transition: background-color 500ms ease-out;
     -o-transition: background-color 500ms ease-out;
     transition: background-color 500ms ease-out;
-    background: var(--darkpurple);
+    background: var(--purple);
 }
 
 .channel {
@@ -72,4 +95,12 @@
 .channel a {
     text-decoration: none;
     color: var(--darkpurple);
+}
+
+.channel span {
+    color: var(--darkpurple);
+}
+
+.sectiontype {
+    border-bottom: 2px solid var(--darkpurple);
 }
